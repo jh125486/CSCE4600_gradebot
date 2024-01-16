@@ -1,0 +1,6 @@
+ProcessID,Burst Duration,Arrival Time,Priority
+B1,6,1,2
+B2,8,3,1
+B3,1,5,3
+B4,3,7,4
+B5,2,9,2
