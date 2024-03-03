@@ -63,7 +63,7 @@ func main() {
 }
 
 func pauseForInput(w io.Writer, r io.Reader) {
-	_, _ = fmt.Fprintf(w, "press any key to continue...")
+	_, _ = fmt.Fprintf(w, "press 'return' key to continue...")
 	input := bufio.NewScanner(r)
 	input.Scan()
 }
